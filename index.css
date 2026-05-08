@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.formInput{
+    gap: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.inputTitle{
+    width: 155px;
+    height: 40px;
+    border: 2px solid #d1d5db;
+    border-radius: 5px;
+    background-color: white;
+    color: #1e293b;
+    text-align: center;
+}
+
+.inputNominal{
+    width: 150px;
+    height: 40px;
+    border: 2px solid #d1d5db;
+    border-radius: 5px;
+    background-color: white;
+    color: #1e293b;
+    text-align: center;
+}
+
+.inputDate{
+    width: 150px;
+    height: 40px;
+    border: 2px solid #d1d5db;
+    border-radius: 5px;
+    background-color: white;
+    color: #1e293b;
+    text-align: center;
+}
+
+.buttonSubmit{
+    height: 40px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 14px;
+    background-color: #635bff;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.listFinance{
+    margin-left: 34px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    align-items: center;
+}

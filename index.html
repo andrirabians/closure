@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Finance Management</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <h1>Personal Finance Management</h1>
-    <form action="" id="form-add">
-        <input name="title" type="text" placeholder="Judul Aktivitas Transaksi">
-        <input name="nominal" type="number" placeholder="Input Nominal Rupiah">
-        <input name="dates" type="date" placeholder="Tanggal">
-        <button type="submit">Simpan</button>
+    <form action="" class="formInput" id="form-add">
+        <input class="inputTitle" name="title" type="text" placeholder="Judul Aktivitas Transaksi">
+        <input class="inputNominal" name="nominal" type="number" placeholder="Input Nominal Rupiah">
+        <input class="inputDate" name="dates" type="date" placeholder="Tanggal">
+        <button class="buttonSubmit" type="submit">Simpan</button>
     </form>
 
-    <ol id="personal-finance">
+    <ol class="listFinance" id="personal-finance">
     </ol> 
 
     <script src="main.js"></script>

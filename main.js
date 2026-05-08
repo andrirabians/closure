@@ -45,7 +45,7 @@ const render = () => {
 
 
 if(formAdd){
-    formAdd.addEventListener("submit", function(event){
+    formAdd.addEventListener ("submit", function(event){
         event.preventDefault();
         const formTitle = formAdd.elements["title"].value;
         const formNominal = "Rp. " + new Intl.NumberFormat("id-ID").format(formAdd.elements["nominal"].value);
@@ -57,7 +57,11 @@ if(formAdd){
             nominal :formNominal,
             dates :formDates
         })
+       
+        document.getElementById("form-add").reset()
+
         
+
         render()
         
         
